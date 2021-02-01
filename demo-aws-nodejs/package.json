@@ -1,0 +1,19 @@
+{
+  "name": "demo-aws-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "invoke-hello": "serverless invoke local -f hello",
+    "invoke-swapi-persona-post": "serverless invoke local -f swapi-persona-post",
+    "invoke-swapi-persona-get": "serverless invoke local -f swapi-persona-get",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "mongoose": "^5.11.14"
+  }
+}
